@@ -1,6 +1,6 @@
 SAT-based sudoku solver
 
-This is a very simple solver that uses the [Picosat](1) library
+This is a very simple solver that uses the [Picosat][1] library
 to do the hard work.
 
 ```
@@ -21,3 +21,6 @@ If you comment out those lines, the program takes about 50 seconds to
 solve the first 20 problems in `test/sudoku17.49151.txt`.  With the
 lines added, it takes under 0.01 seconds, and can run the whole set
 of 49,151 problems in about 18s on my laptop.
+
+
+[1]: http://fmv.jku.at/picosat/
